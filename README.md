@@ -1,2 +1,2 @@
 # LunaBot.github.io
-Сайт для дискорд бота LunaBot
+Сайт для дискорд бота LunaBot!
