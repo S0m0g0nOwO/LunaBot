@@ -1,112 +1,73 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title> Main Page | LunaBot Official </title>
-	<link rel="stylesheet" type="text/css" href="css/mainpage.css">
+	<title> LunaBot Discord Bot</title>
 	<link rel="icon" type="image/png" href="https://cdn.discordapp.com/attachments/793154520720998401/793157049634390036/cersent.png">
-  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-  	<link href='https://fonts.googleapis.com/css?family=Cabin Condensed' rel='stylesheet'>	
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:title" content="Главная страница дискорд бота - LunaBot">
+	<meta property="og:site_name" content="Главная страница дискорд бота - LunaBot">
+	<meta property="og:url" content="LunaBot">
+	<meta property="og:description" content="Луна это Многофункциональный бот для развлечения и веселье!">
+	<meta property="og:image" content="https://cdn.discordapp.com/attachments/772509291361206305/815233705030975499/luna.jpg" />
+	<style type="text/css">
+body {
+	background-image: url(https://s20.postimg.cc/fv7ucb8lp/Opera_2018-05-19_134224_pixabay.com.png);
+    width: 100px;
+    height: 100px;
+    max-height: 100%;
+    margin: 0;
+    padding: 0;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info-box {
+	width: 100%;
+	height: 100px;
+	position: absolute;
+  	left: 0;
+  	top: 10%;
+  	text-align: center;
+  	color: #000;
+}
+
+.name {
+	font-size: 40px;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.btns {
+	width: 300px;
+	height: 50px;
+	border: none;
+	border-radius: 20px;
+	outline: none;
+	transition-duration: 0.4s; 
+	font-size: 30px;
+}
+
+.btns:hover{
+	transition-duration: 0.4s;
+	background-color: #CBCBCB;
+	transform: scale(1.1);
+}
+
+	</style>
 </head>
 <body>
 
-<!-- НАВИГАЦИЯ -->
-
-<div id="navbar">
-  <a class="active" href="">LunaBot</a>
-  <a href="https://discord.gg/u6Ec7puDnj">Сервер Поддержки</a>
-  		<a href="">Команды</a>
-  		<a href="">Премиум</a>
+<div class="info-box">
+	<div class="name">
+		<h1>LunaBot</h1>
+		<p>Многофункциональный бот для развлечения</p>
+	</div>
+	<div>
+		<a href="https://discord.com/oauth2/authorize?client_id=791323269625282570&scope=bot&permissions=872411134"><button class="btns">Пригласить</button></a>
+		<a href=""><button class="btns">Поддержка</button></a>
+	</div>
 </div>
-
-<!-- ЗАГОЛОВОК -->
-
-<div align="center" id="header">
-	<h1>LunaBot</h1>
-	<p>Многофункциональный бот для развлечения</p>
-		<div class="buttons">
-			<a href="https://discord.com/oauth2/authorize?client_id=791323269625282570&scope=bot&permissions=872411134"><button class="btns">Пригласить</button></a>
-			<a href=""><button class="btns">Команды</button></a>
-		</div>
-</div>
-
-<!-- ВОЗМОЖНОСТИ БОТА -->
-
-<div align="center" id="uilfnd">
-<h1>Возможности:</h1>
-</div>
-
-<div class="block1">
-        <div class="middtxt">
-          <h1>Аниме-Ролеплей</h1>
-          <p>Аниме команды для ролевых игр. Украстье ваши рп игры с этими командами!</p>
-        </div>   
-</div>
-
-<div class="block2">
-        <div class="middtxt">
-          <h1>Веселье</h1>
-          <p>Команды веселости не дадут вам и активу в чате заскучать.</p>
-        </div>   
-</div>
-
-<div class="block3">
-        <div class="middtxt">
-          <h1>Картинки</h1>
-          <p>Манипуляции с картинками или аватарками участников. Вы можете их искажать, инвертировать, менять цвет и многое другое!</p>
-        </div>   
-</div>
-
-<div class="block4">
-        <div class="middtxt">
-          <h1>Модерация</h1>
-          <p>В каждом сервере есть нарушитель. Что бы наказать нарушителя, используйте нашего бота с отличными командами модерации</p>
-        </div>   
-</div>
-
-<div class="block5">
-        <div class="middtxt">
-          <h1>Логирования</h1>
-          <p>С Системой логирования, вы можете прослеживать любое изменения на вашем сервере! </p>
-        </div>   
-</div>
-
-<div class="block6">
-        <div class="middtxt">
-          <h1>Информация</h1>
-          <p>С этими командами, вы можете узнать любую информации сервера, участника и т.п.!</p>
-        </div>   
-</div>
-
-<!--<div class="footer">
-     <div>
-        <h5 class="text-uslinks">Полезные Ссылки:</h5>
-        <ul class="link-list">
-          <li><a href="https://discord.com/oauth2/authorize?client_id=791323269625282570&scope=bot&permissions=872411134">Пригласить бота</a></li>
-          <li><a href="https://discord.gg/u6Ec7puDnj">Сервер Поддержки</a></li>
-          <li><a href="">Премиум</a></li>
-          <li><a href="">Команды</a></li>
-        </ul>
-        <p style="font-size: 15px;"> © LunaBot Official 2021.| Все права съедены.</p>
-      </div>
-</div>-->
-<br>
-<br>
-<br>
 
 </body>
-<script type="text/javascript">
-	window.onscroll = function() {myFunction()};
-
-var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
-</script>
 </html>
